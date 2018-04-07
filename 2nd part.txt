@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<iostream>
+#include<pthread.h>
+#include<stdlib.h>
+#include<unistd.h>
+#define MIN_PID 100
+#define MAX_PID 1000
+using namespace std;
+class PidManager
+{
+	public:
+    int pid[MAX_PID - MIN_PID];
+    int allocateMap()
+   {
+    
+   }  
+   int allocatePID()
+   {    
+   
+   } 
+   void releasePID(int pidNum)
+   {     
+   
+   }
+};
+int main()
+{
+   PidManager p;       
+   p.allocateMap();
+   p.allocatePID() ;
+   p.releasePID(100);
+   }
